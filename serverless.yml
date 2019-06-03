@@ -24,5 +24,6 @@ functions:
           - xray:GetSamplingTargets
           - xray:GetSamplingStatisticSummaries
         Resource: '*'
+    runtime: python3.6
 plugins:
   - serverless-iam-roles-per-function
